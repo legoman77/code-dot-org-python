@@ -26,8 +26,9 @@ def draw_house(length):
     z.move_forward(length)
     z.turn_right(30)
     draw_triangle(length)
-    # ???
+    z.jump(length)
 
-# ???
+draw_house(100)
+
 
 z.check()

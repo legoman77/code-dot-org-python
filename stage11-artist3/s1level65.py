@@ -12,6 +12,11 @@ import codestudio
 zombie = codestudio.load('s1level65')
 z = zombie
 
+
+for counter in range(25,61,5):
+    z.forward(counter)
+    z.right()
+
 # zombie.move_forward(25)
 # zombie.turn_right(90)
 # zombie.move_forward(30)

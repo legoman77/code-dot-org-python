@@ -12,6 +12,8 @@ import codestudio
 zombie = codestudio.load('s1level59')
 z = zombie
 
-# ???
+for count in range(4):
+    z.forward(100)
+    z.right()
 
 zombie.check()

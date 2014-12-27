@@ -20,6 +20,10 @@ def draw_square(length):
         zombie.turn_right(90)
 
 zombie.color = zombie.random_color()
-draw_square(100)
+
+for count in range(3):
+    draw_square(100)
+    z.right(120)
+
 
 zombie.check()
